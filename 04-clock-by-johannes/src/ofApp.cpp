@@ -31,42 +31,10 @@ void ofApp::setup(){
 	gui.add(mina.set("min loop", 2, 1, 61));
 	gui.add(ha.set("h loop", 2, 1, 61));
 
-	secfont.load("HelveticaBlkHollow.ttf", 25);
-	minfont.load("HelveticaBlkHollow.ttf", 100);
-	hfont.load("HelveticaBlkHollow.ttf", 140);
+	secfont.load("sloppyhollow.ttf", 25);
+	minfont.load("sloppyhollow.ttf", 100);
+	hfont.load("sloppyhollow.ttf", 140);
 	
-	/*
-	gui.setup();
-	gui.add(stunde.set("stunde", 8, 0, 24));
-	gui.add(minute.set("minute", 36, 0, 60));
-	gui.add(positionX.set("X sec", 12, 0.0, 50.0));
-	gui.add(positionY.set("Y sec", 14, 0.0, 20.0));
-	gui.add(positionX2.set("X min",29.25, 0.0, 50.0));
-	gui.add(positionY2.set("Y min",4.1, 0.0, 20.0));
-	gui.add(positionX3.set("X h", 41.5, 0.0, 50.0));
-	gui.add(positionY3.set("Y h", 5.3, 0.0, 20.0));
-	gui.add(speed.set("SPEED sec", 0.055, 0.00, 1.00));
-	gui.add(speed2.set("SPEED min", 0.075, 0.00, 1.00));
-	gui.add(speed3.set("SPEED h", 0.055, 0.00, 1.00));
-	gui.add(vel.set("vel sec",15, 7.8, 30.00));
-	gui.add(vel2.set("vel min", 4.95, 0.00, 30.00));
-	gui.add(vel3.set("vel h", 3.45, 0.00, 30.00));
-	gui.add(act.set("aktualisierung", 30, 1, 30));
-	gui.add(var.set("var 1", 1.725, 0, 3));
-	gui.add(var2.set("var 2", 710, -1000, 1000));
-	gui.add(var3.set("var 3", 1.065, 0, 3));
-	gui.add(var4.set("var 4", 80, -1000, 1000)); 
-	gui.add(var5.set("var 5", 1.005, 0, 3));
-	gui.add(var6.set("var 6",430, -1000, 1000));
-	gui.add(frame.set("framerate", 60, 1, 60));
-	gui.add(seca.set("sec loop", 11, 1, 61));
-	gui.add(mina.set("min loop", 2, 1, 61));
-	gui.add(ha.set("h loop", 2, 1, 61));
-
-	secfont.load("HelveticaBlkHollow.ttf", 50);
-	minfont.load("HelveticaBlkHollow.ttf", 220);
-	hfont.load("HelveticaBlkHollow.ttf", 320);
-	*/
 
 	ofSetBackgroundColor(0);
 }
